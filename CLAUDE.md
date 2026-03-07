@@ -152,7 +152,7 @@ pip install -r requirements.txt
 8. ✅ **`risk/manager.py`** — Hard limits BEFORE executor.
 9. ✅ **`market/executor.py`** — Order placement (uses risk manager as gate).
 10. ✅ **`bot/scanner.py`** — Scans markets for opportunities.
-11. **`bot/agent.py`** — Main loop: data → signal → size → execute.
+11. ✅ **`bot/agent.py`** — Main loop: data → signal → size → execute.
 12. **`main.py`** — CLI entry point with dry-run mode.
 
 ### Step 3: Write tests as you go
@@ -474,6 +474,6 @@ Usage:
 - [x] `risk/manager.py` — implemented & tested (7 tests)
 - [x] `market/executor.py` — implemented (3 tests, dry-run only)
 - [x] `bot/scanner.py` — implemented (3 tests)
-- [ ] `bot/agent.py` — main loop working
+- [x] `bot/agent.py` — main loop working (2 tests)
 - [ ] `main.py` — CLI working, dry-run tested
 - [ ] End-to-end dry-run smoke test passing
