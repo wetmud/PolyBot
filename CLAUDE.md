@@ -1,6 +1,6 @@
 # Polybot — Claude Code Build Prompt & Project Memory
 
-## STATUS: IN PROGRESS — BATCH 2
+## STATUS: BUILD COMPLETE
 
 ---
 
@@ -476,4 +476,5 @@ Usage:
 - [x] `bot/scanner.py` — implemented (3 tests)
 - [x] `bot/agent.py` — main loop working (2 tests)
 - [x] `main.py` — CLI working, dry-run tested
-- [ ] End-to-end dry-run smoke test passing
+- [x] `verify_math.py` — all math cross-checks passing
+- [x] End-to-end: 66 tests passing, math verified, CLI working
