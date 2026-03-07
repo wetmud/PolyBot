@@ -151,7 +151,7 @@ pip install -r requirements.txt
 7. ✅ **`data/feed.py`** — WebSocket connection for real-time data.
 8. ✅ **`risk/manager.py`** — Hard limits BEFORE executor.
 9. ✅ **`market/executor.py`** — Order placement (uses risk manager as gate).
-10. **`bot/scanner.py`** — Scans markets for opportunities.
+10. ✅ **`bot/scanner.py`** — Scans markets for opportunities.
 11. **`bot/agent.py`** — Main loop: data → signal → size → execute.
 12. **`main.py`** — CLI entry point with dry-run mode.
 
@@ -473,7 +473,7 @@ Usage:
 - [x] `data/feed.py` — websocket live (3 tests)
 - [x] `risk/manager.py` — implemented & tested (7 tests)
 - [x] `market/executor.py` — implemented (3 tests, dry-run only)
-- [ ] `bot/scanner.py` — implemented
+- [x] `bot/scanner.py` — implemented (3 tests)
 - [ ] `bot/agent.py` — main loop working
 - [ ] `main.py` — CLI working, dry-run tested
 - [ ] End-to-end dry-run smoke test passing
