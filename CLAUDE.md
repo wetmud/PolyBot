@@ -153,7 +153,7 @@ pip install -r requirements.txt
 9. ✅ **`market/executor.py`** — Order placement (uses risk manager as gate).
 10. ✅ **`bot/scanner.py`** — Scans markets for opportunities.
 11. ✅ **`bot/agent.py`** — Main loop: data → signal → size → execute.
-12. **`main.py`** — CLI entry point with dry-run mode.
+12. ✅ **`main.py`** — CLI entry point with dry-run mode.
 
 ### Step 3: Write tests as you go
 Every core module must have a corresponding test in `/tests/`.
@@ -475,5 +475,5 @@ Usage:
 - [x] `market/executor.py` — implemented (3 tests, dry-run only)
 - [x] `bot/scanner.py` — implemented (3 tests)
 - [x] `bot/agent.py` — main loop working (2 tests)
-- [ ] `main.py` — CLI working, dry-run tested
+- [x] `main.py` — CLI working, dry-run tested
 - [ ] End-to-end dry-run smoke test passing
