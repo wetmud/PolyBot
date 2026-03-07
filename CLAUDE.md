@@ -1,6 +1,6 @@
 # Polybot — Claude Code Build Prompt & Project Memory
 
-## STATUS: READY TO BUILD — INITIAL PROMPT
+## STATUS: IN PROGRESS — BATCH 2
 
 ---
 
@@ -142,13 +142,13 @@ pip install -r requirements.txt
 
 ### Step 2: Build Order (implement in this exact sequence)
 
-1. **`core/lmsr.py`** — Pure math, no dependencies. Build and test first.
-2. **`core/kelly.py`** — Pure math, depends only on numpy.
-3. **`core/bayesian.py`** — Pure math, numerically stable log-space.
-4. **`core/signals.py`** — Combines LMSR + Bayesian to detect inefficiencies.
-5. **`market/client.py`** — Polymarket CLOB API wrapper.
-6. **`market/orderbook.py`** — Parse and maintain orderbook state.
-7. **`data/feed.py`** — WebSocket connection for real-time data.
+1. ✅ **`core/lmsr.py`** — Pure math, no dependencies. Build and test first.
+2. ✅ **`core/kelly.py`** — Pure math, depends only on numpy.
+3. ✅ **`core/bayesian.py`** — Pure math, numerically stable log-space.
+4. ✅ **`core/signals.py`** — Combines LMSR + Bayesian to detect inefficiencies.
+5. ✅ **`market/client.py`** — Polymarket CLOB API wrapper.
+6. ✅ **`market/orderbook.py`** — Parse and maintain orderbook state.
+7. ✅ **`data/feed.py`** — WebSocket connection for real-time data.
 8. **`risk/manager.py`** — Hard limits BEFORE executor.
 9. **`market/executor.py`** — Order placement (uses risk manager as gate).
 10. **`bot/scanner.py`** — Scans markets for opportunities.
@@ -457,20 +457,20 @@ Usage:
 
 ## 🚧 BLOCKED ON (Claude Code: fill this in as needed)
 
-*Nothing blocked yet — starting fresh build.*
+*Nothing blocked — build in progress.*
 
 ---
 
 ## 📝 BUILD LOG (Claude Code: update as you go)
 
-- [ ] Project scaffolded
-- [ ] `core/lmsr.py` — implemented & tested
-- [ ] `core/kelly.py` — implemented & tested
-- [ ] `core/bayesian.py` — implemented & tested
-- [ ] `core/signals.py` — implemented & tested
-- [ ] `market/client.py` — implemented
-- [ ] `market/orderbook.py` — implemented
-- [ ] `data/feed.py` — websocket live
+- [x] Project scaffolded
+- [x] `core/lmsr.py` — implemented & tested (11 tests)
+- [x] `core/kelly.py` — implemented & tested (13 tests)
+- [x] `core/bayesian.py` — implemented & tested (9 tests)
+- [x] `core/signals.py` — implemented & tested (5 tests)
+- [x] `market/client.py` — implemented (3 tests)
+- [x] `market/orderbook.py` — implemented (7 tests)
+- [x] `data/feed.py` — websocket live (3 tests)
 - [ ] `risk/manager.py` — implemented & tested
 - [ ] `market/executor.py` — implemented (dry-run only)
 - [ ] `bot/scanner.py` — implemented
