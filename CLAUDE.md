@@ -149,7 +149,7 @@ pip install -r requirements.txt
 5. ✅ **`market/client.py`** — Polymarket CLOB API wrapper.
 6. ✅ **`market/orderbook.py`** — Parse and maintain orderbook state.
 7. ✅ **`data/feed.py`** — WebSocket connection for real-time data.
-8. **`risk/manager.py`** — Hard limits BEFORE executor.
+8. ✅ **`risk/manager.py`** — Hard limits BEFORE executor.
 9. **`market/executor.py`** — Order placement (uses risk manager as gate).
 10. **`bot/scanner.py`** — Scans markets for opportunities.
 11. **`bot/agent.py`** — Main loop: data → signal → size → execute.
@@ -471,7 +471,7 @@ Usage:
 - [x] `market/client.py` — implemented (3 tests)
 - [x] `market/orderbook.py` — implemented (7 tests)
 - [x] `data/feed.py` — websocket live (3 tests)
-- [ ] `risk/manager.py` — implemented & tested
+- [x] `risk/manager.py` — implemented & tested (7 tests)
 - [ ] `market/executor.py` — implemented (dry-run only)
 - [ ] `bot/scanner.py` — implemented
 - [ ] `bot/agent.py` — main loop working
