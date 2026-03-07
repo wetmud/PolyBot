@@ -148,7 +148,7 @@ pip install -r requirements.txt
 4. ✅ **`core/signals.py`** — Combines LMSR + Bayesian to detect inefficiencies.
 5. ✅ **`market/client.py`** — Polymarket CLOB API wrapper.
 6. ✅ **`market/orderbook.py`** — Parse and maintain orderbook state.
-7. **`data/feed.py`** — WebSocket connection for real-time data.
+7. ✅ **`data/feed.py`** — WebSocket connection for real-time data.
 8. **`risk/manager.py`** — Hard limits BEFORE executor.
 9. **`market/executor.py`** — Order placement (uses risk manager as gate).
 10. **`bot/scanner.py`** — Scans markets for opportunities.
@@ -470,7 +470,7 @@ Usage:
 - [x] `core/signals.py` — implemented & tested (5 tests)
 - [x] `market/client.py` — implemented (3 tests)
 - [x] `market/orderbook.py` — implemented (7 tests)
-- [ ] `data/feed.py` — websocket live
+- [x] `data/feed.py` — websocket live (3 tests)
 - [ ] `risk/manager.py` — implemented & tested
 - [ ] `market/executor.py` — implemented (dry-run only)
 - [ ] `bot/scanner.py` — implemented
