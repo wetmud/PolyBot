@@ -146,7 +146,7 @@ pip install -r requirements.txt
 2. ✅ **`core/kelly.py`** — Pure math, depends only on numpy.
 3. ✅ **`core/bayesian.py`** — Pure math, numerically stable log-space.
 4. ✅ **`core/signals.py`** — Combines LMSR + Bayesian to detect inefficiencies.
-5. **`market/client.py`** — Polymarket CLOB API wrapper.
+5. ✅ **`market/client.py`** — Polymarket CLOB API wrapper.
 6. **`market/orderbook.py`** — Parse and maintain orderbook state.
 7. **`data/feed.py`** — WebSocket connection for real-time data.
 8. **`risk/manager.py`** — Hard limits BEFORE executor.
@@ -468,7 +468,7 @@ Usage:
 - [x] `core/kelly.py` — implemented & tested (13 tests)
 - [x] `core/bayesian.py` — implemented & tested (9 tests)
 - [x] `core/signals.py` — implemented & tested (5 tests)
-- [ ] `market/client.py` — implemented
+- [x] `market/client.py` — implemented (3 tests)
 - [ ] `market/orderbook.py` — implemented
 - [ ] `data/feed.py` — websocket live
 - [ ] `risk/manager.py` — implemented & tested
